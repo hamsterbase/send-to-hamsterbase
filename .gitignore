@@ -2,3 +2,4 @@ node_modules
 dist/scripts
 yarn.lock
 .DS_Store
+dist/
