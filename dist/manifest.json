@@ -1,0 +1,16 @@
+{
+  "name": "Send to hamsterbase",
+  "description": "Save webpages to hamsterbase.",
+  "homepage_url": "https://github.com/hamsterbase/send-to-hamsterbase",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "hamsterbase.png"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://*/*", "http://*/*"]
+}

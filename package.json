@@ -1,8 +1,14 @@
 {
   "name": "send-to-hamsterbase",
-  "version": "0.1.0",
+  "version": "99.99.99",
   "main": "index.js",
   "repository": "git@github.com:hamsterbase/send-to-hamsterbase.git",
   "author": "monster <monster@hamsterbase.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
 }
