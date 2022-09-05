@@ -1,0 +1,8 @@
+{
+  "name": "send-to-hamsterbase",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:hamsterbase/send-to-hamsterbase.git",
+  "author": "monster <monster@hamsterbase.com>",
+  "license": "MIT"
+}
