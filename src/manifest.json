@@ -1,0 +1,12 @@
+{
+  "name": "send-to-hamsterbase",
+  "manifest_version": 3,
+  "version": "0.1",
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "main/popup.html"
+  },
+  "background": {
+    "service_worker": "main/background.ts"
+  }
+}

@@ -6,19 +6,19 @@
   "author": "monster <monster@hamsterbase.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vite build --watch",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "^4.8.2",
+    "vite-plugin-chrome-extension": "^0.0.7",
+    "@types/chrome": "^0.0.196",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.8.2",
     "vite": "^3.1.0"
   }
 }
